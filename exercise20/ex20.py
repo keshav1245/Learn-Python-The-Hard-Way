@@ -25,7 +25,7 @@ print "Let's print three lines:"
 
 current = 1
 print_a_line(current,current_file)
-current = current + 1
+current +=1
 print_a_line(current,current_file)
-current = current +1
+current +=1
 print_a_line(current,current_file)
