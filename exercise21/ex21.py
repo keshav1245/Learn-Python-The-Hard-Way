@@ -32,3 +32,13 @@ print "That becomes : ", what , " Can you do it by hand ???"
 what2 = add(age,divide(height,subtract(weight,multiply(iq,2))))
 
 print "That becomes : ", what2 , " Can you do it by hand ???"
+
+
+def remainder(a,b):
+	print "Remainder of %d / %d"%(a,b)
+	return (a%b)
+
+
+remain = remainder(46,7)
+
+print "Remainder is : %d"%remain
